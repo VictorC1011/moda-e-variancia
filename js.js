@@ -9,7 +9,7 @@ function calculate() {
 
   //Moda
   var moda = [];
-  for(x=0; x < array.length; x += 2) {if(array[x] === array[x + 1]) {
+  for(x=0; x < array.length; x += 1) {if(array[x] === array[x + 1]) {
    moda.push(array[x]);
   }}
 
